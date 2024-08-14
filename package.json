@@ -1,6 +1,6 @@
 {
   "name": "minio-cli-installer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Installer for MinIO Client mc.exe",
   "main": "index.js",
   "scripts": {
