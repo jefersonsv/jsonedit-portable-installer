@@ -1,0 +1,16 @@
+{
+  "name": "minio-cli-installer",
+  "version": "1.0.0",
+  "description": "Installer for MinIO Client mc.exe",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js"
+  },
+  "bin": {
+    "mc": "index.js"
+  },
+  "dependencies": {
+    "download": "^8.0.0",
+    "fs-extra": "^10.0.0"
+  }
+}
