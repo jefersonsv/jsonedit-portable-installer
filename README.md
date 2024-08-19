@@ -1,11 +1,11 @@
 # Purpose
 
-Tired to install MinIO Client and add to the path?
+Tired to download JSONEdit, extract and add to the path?
 
 Install globally using any packgage manager from npm
 
 # npm
 
 ```
-npm install -g minio-cli-installer
+npm install -g jsonedit-portable-installer
 ```
