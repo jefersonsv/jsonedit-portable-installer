@@ -9,3 +9,9 @@ Install globally using any packgage manager from npm
 ```
 npm install -g jsonedit-portable-installer
 ```
+
+# pnpm
+
+```
+pnpm install -g jsonedit-portable-installer
+```
