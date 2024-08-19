@@ -1,16 +1,20 @@
 {
-  "name": "minio-cli-installer",
+  "name": "jsonedit-portable-installer",
   "version": "1.0.2",
-  "description": "Installer for MinIO Client mc.exe",
+  "description": "Download JSONedit and let ready to run",
   "main": "index.js",
   "scripts": {
     "postinstall": "node index.js"
   },
   "bin": {
-    "mc": "./mc.exe"
+    "jsonedit": "./JSONedit.exe"
   },
   "dependencies": {
+    "adm-zip": "^0.5.15",
     "download": "^8.0.0",
-    "fs-extra": "^10.0.0"
+    "fs-extra": "^10.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
