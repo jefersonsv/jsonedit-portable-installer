@@ -34,7 +34,7 @@ function getGlobalPath() {
 }
 
 async function start() {
-  const globalPath = "C:/Users/Jeferson/.bun/bin";
+  const globalPath = getGlobalPath();
 
   fs.mkdirSync(tempPath, { recursive: true });
   fs.mkdirSync(globalPath, { recursive: true });

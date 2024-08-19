@@ -4,6 +4,8 @@ Tired to download JSONEdit, extract and add to the path?
 
 Install globally using any packgage manager from npm
 
+NOTE: Works just on Windows OS
+
 # npm
 
 ```
@@ -20,4 +22,5 @@ yarn global add jsonedit-portable-installer
 
 ```
 bun add jsonedit-portable-installer --global
+bun pm trust jsonedit-portable-installer
 ```
