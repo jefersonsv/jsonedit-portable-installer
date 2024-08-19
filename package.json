@@ -1,6 +1,6 @@
 {
   "name": "jsonedit-portable-installer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Download JSONedit and let ready to run",
   "main": "index.js",
   "scripts": {
