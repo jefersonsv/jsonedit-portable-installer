@@ -10,8 +10,14 @@ Install globally using any packgage manager from npm
 npm install -g jsonedit-portable-installer
 ```
 
-# pnpm
+# yarn
 
 ```
-pnpm install -g jsonedit-portable-installer
+yarn global add jsonedit-portable-installer
+```
+
+# bun
+
+```
+bun add jsonedit-portable-installer --global
 ```
