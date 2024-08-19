@@ -20,7 +20,8 @@ function getGlobalPath() {
     } else if (userAgent.includes("yarn")) {
       return execSync("yarn global dir").toString().trim();
     } else if (userAgent.includes("bun")) {
-      return execSync("bun pm bin -g").toString().trim();
+      //return execSync("bun pm bin -g").toString().trim();
+      return path.join(os.homedir(), "/.bun/bin");
     } else if (userAgent.includes("deno")) {
       const infoJson = execSync("deno info --json").toString().trim();
       const info = JSON.parse(infoJson);
