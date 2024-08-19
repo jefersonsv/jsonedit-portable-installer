@@ -17,10 +17,3 @@ npm install -g jsonedit-portable-installer
 ```
 yarn global add jsonedit-portable-installer
 ```
-
-# bun
-
-```
-bun add jsonedit-portable-installer@latest --global
-bun pm trust jsonedit-portable-installer
-```
